@@ -1,0 +1,22 @@
+.stop-watch {
+	height: 85vh;
+	width: 30vw;
+	background-image: linear-gradient(180deg, #130751, #8881af 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border: 2px solid black;
+}
+
+@media (max-width: 1000px) {
+    .stop-watch {
+		height: 85vh;
+		width: 70vw;
+		background-image: linear-gradient(180deg, #130751, #8881af 100%);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
